@@ -1,2 +1,2 @@
 # Beter
-Hack IDC copation, 2021. 
+Hack IDC competition, 2021. 
