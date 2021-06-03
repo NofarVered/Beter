@@ -1,0 +1,87 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px 15px;
+
+    position: absolute;
+    width: 117px;
+    height: 71px;
+    left: calc(50% - 117px/2 + 69px);
+    top: 311px;
+
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+.participant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px 15px;
+
+    position: absolute;
+    width: 118px;
+    height: 71px;
+    left: calc(50% - 118px/2 - 68.5px);
+    top: 311px;
+
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+.title{
+    position: absolute;
+    width: 313px;
+    height: 54px;
+    left: 33px;
+    top: 239px;
+
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.bet{
+    position: absolute;
+    width: 81px;
+    height: 17px;
+    left: 148px;
+    top: 35px;
+
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.MdArrow{
+    position: absolute;
+    left: 330px;
+    right: 10px;
+    top: 40px;
+    bottom: 10px;
+    width: 27px;
+    height: 22px;
+}
+.BArrow{
+
+    position: absolute;
+    left: 30px;
+    right: 10px;
+    top: 40px;
+    bottom: 10px;
+    width: 27px;
+    height: 22px;
+
+}

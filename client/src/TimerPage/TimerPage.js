@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./TimerPage.css";
-import MdKeyboardArrowRight from "react-icons/md";
-import IoArrowUndoSharp from "react-icons/md";
+import {MdKeyboardArrowRight} from "react-icons/md";
+import {TiArrowBack} from "react-icons/ti";
 class TimerPage extends Component {
     state = {
         company: this.props.company ? this.props.company : "",
@@ -34,17 +34,25 @@ class TimerPage extends Component {
     render() {
         return (
             <div>
-                <MdKeyboardArrowRight className="MdArrow"/>
-                <IoArrowUndoSharp className="IoArrow"/>
-                <div className="bet">
+             <MdKeyboardArrowRight className="MdArrow"/>
+             <TiArrowBack className="BArrow" />
+
+              <div className="bet">
                     התערבות פתוחה
-                </div>
-            <div className="title">
-                כמה זמן ייקח לשקד לסיים לסיים את כל העונות של משחקי הכס?
-            </div>
-              <div className="">
-                    סכום
               </div>
+              <div className="title">
+                כמה זמן ייקח לשקד לסיים לסיים את כל העונות של משחקי הכס?
+              </div>
+              <div className="total">
+                 450$
+                  <br/>
+                  סך הכל בקופה
+              </div>
+                <div className="participant">
+                    50$
+                    <br/>
+                    סכום למשתתף
+                </div>
             </div>
 
 
