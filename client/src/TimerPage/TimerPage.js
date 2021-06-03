@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useState } from "react";
 import "./TimerPage.css";
+import User from "./user.png"
 import {MdKeyboardArrowRight} from "react-icons/md";
 import {TiArrowBack} from "react-icons/ti";
 import {BiShareAlt} from "react-icons/bi";
@@ -85,6 +86,24 @@ class TimerPage extends Component {
                     ₪50
                     <br/>
                     סכום למשתתף
+                </div>
+                <div className="all-participants">
+                    <p>משתתפים</p>
+                    <div className="participants-list">
+                        {this.state.participants.map((person,index) =>
+                            (
+                                <div className="row" key={index}>
+                                    <div className="col-10">
+                                        <p>
+                                            {person.name}
+                                        </p>
+                                        {person.answer}
+                                    </div>
+                                    <div  className="col-2">
+                                        <img src={User}/>
+                                    </div>
+                                </div>))}
+                    </div>
                 </div>
             </div>
 
