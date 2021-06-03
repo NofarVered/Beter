@@ -26,3 +26,16 @@
 
 
 }
+.private{
+
+    position: absolute;
+    top:85px;
+    left: 100px;
+
+}
+.public{
+    position: absolute;
+    top:85px;
+    left: 250px;
+
+}
