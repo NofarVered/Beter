@@ -1,0 +1,11 @@
+.tickets{
+    height:500px;
+    margin:4px, 4px;
+    padding:4px;
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    position:relative;
+    top:20px;
+}
