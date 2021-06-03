@@ -1,5 +1,5 @@
 .tickets{
-    height:500px;
+    height:550px;
     margin:4px, 4px;
     padding:4px;
     width: 500px;
@@ -7,5 +7,7 @@
     overflow-y: auto;
     text-align:justify;
     position:relative;
-    top:20px;
+    top:120px;
+    margin: 16px;
+
 }
