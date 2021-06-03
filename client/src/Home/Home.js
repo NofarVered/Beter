@@ -3,6 +3,8 @@ import "./Home.css";
 import Coupon from "./Coupon-logo.png";
 import HomeLogo from "./Home-logo.png";
 import Plus from "./plus.png";
+import NewBet from "../NewBet/NewBet";
+import OpenBets from "../OpenBets/OpenBets"
 
 class Home extends Component {
     state = {
@@ -32,12 +34,14 @@ class Home extends Component {
 
         return (
             <div>
+
                 <div className="head">
                     <h1 className="title">לוח התערבויות</h1>
                     <div className="private" onClick={this.private}  style={{  fontWeight:this.state.fWeight_pr, borderBottom: this.state.border_pr}}>פרטי</div>
                     <div className="public" onClick={this.public} style={{  fontWeight:this.state.fWeight_pu, borderBottom: this.state.border_pu}}> ציבורי </div>
 
                 </div>
+                  <OpenBets/>
                 <div className="nav-bar">
                     <img className="nav-button" src={Coupon}/>
                     <img className="nav-plus" src={Plus}/>
