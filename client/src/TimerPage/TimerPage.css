@@ -85,3 +85,47 @@
     height: 22px;
 
 }
+.Timer{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 45px;
+    top: 0px;
+
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 65px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+}
+.s{
+    position: absolute;
+    height: 150px;
+    left: 275px;
+    top: 140px;
+}
+.m{
+    position: absolute;
+    height: 150px;
+    left: 200px;
+    top: 140px;
+}
+.h{
+    position: absolute;
+    height: 150px;
+    left: 125px;
+    top: 140px;
+}
+.d{
+    position: absolute;
+    height: 150px;
+    left: 60px;
+    top: 140px;
+}
