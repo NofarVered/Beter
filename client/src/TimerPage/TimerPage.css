@@ -128,8 +128,9 @@
     height: 150px;
     left: 60px;
     top: 140px;
+
 }
-[0:20, 4.6.2021] נעם קווין B: row{
+.row{
                      justify-content: flex-end;
                      margin: 15px;
                  }
