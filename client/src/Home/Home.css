@@ -1,0 +1,16 @@
+.nav-button{
+    width: 30px;
+    height: 24px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 25px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-bar{
+    background: #C4C4C4;
+    height: 78px;
+;
+}
