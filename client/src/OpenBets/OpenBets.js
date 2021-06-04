@@ -15,7 +15,7 @@ class OpenBets extends Component{
         },
             {
                 company: "אל-על",
-                betText: "מה היעד שאליו טסו הכי הרבה ישראלים בקורונה?",
+                betText: "האם קים תחזור לקניה ",
                 amount: "230 משתתפים",
             },
             {
@@ -25,7 +25,7 @@ class OpenBets extends Component{
             },
             {
                 company: "אל-על",
-                betText: "מה היעד שאליו טסו הכי הרבה ישראלים בקורונה?",
+                betText: "האם קים קרדשיאן תחזור לקניה ווסט",
                 amount: "230 משתתפים",
             },
             {
@@ -35,7 +35,7 @@ class OpenBets extends Component{
             },
             {
                 company: "אל-על",
-                betText: "מה היעד שאליו טסו הכי הרבה ישראלים בקורונה?",
+                betText: "האם קים קרדשיאן תחזור לקניה ווסט",
                 amount: "230 משתתפים",
             }
         ],

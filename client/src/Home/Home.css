@@ -1,3 +1,7 @@
+.home-page{
+    background-image: url("./home-background.png");
+}
+
 .nav-button{
     width: 30px;
     height: 24px;
@@ -6,8 +10,21 @@
     margin-top: 30px;
 }
 
+.home-title{
+    height: 54px;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+}
+
+
+
 .nav-bar{
-    background: #C4C4C4;
+    background: #404040;
     height: 78px;
     bottom: 0px;
     position: absolute;
@@ -39,3 +56,22 @@
     left: 250px;
 
 }
+
+.newHome{
+    background-image: url("C:\Users\Noam\WebstormProjects\mybeter\client\src\newHome\new-homepage.png");
+    width: 375px;
+    height: 812px;
+}
+
+.newHome-btn{
+    width: 375px;
+    height: 812px;
+    border: none;
+    background: none;
+}
+
+.notifi{
+    border: none;
+    background: none;
+}
+

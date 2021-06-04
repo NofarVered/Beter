@@ -12,7 +12,7 @@ import {BiShareAlt} from "react-icons/bi";
 import {AiOutlineClose} from "react-icons/ai";
 import Timer from "./Timer";
 
-class TimerPage extends Component {
+class TimerPage2 extends Component {
     state = {
         company: this.props.company ? this.props.company : "",
         betText: this.props.betText,
@@ -20,9 +20,9 @@ class TimerPage extends Component {
         timer: "01:09:10:02",
         participants: [{
             name: "עדן",
-            answer: "",
+            answer: "נראה לי שבוע",
             pic: user1,
-            date: "1/6/21",
+            date: "10:03",
         },
             {
                 name: "עדי",
@@ -40,13 +40,13 @@ class TimerPage extends Component {
                 name: "עדן",
                 answer: "שלושה ימים",
                 pic: user4,
-                date: "1/6/21",
+                date: "19:49",
             },
             {
                 name: "מעיין",
                 answer: "ארבעה ימים",
                 pic: user5,
-                date: "1/6/21",
+                date: "20:00",
             }
         ],
     };
@@ -116,17 +116,16 @@ class TimerPage extends Component {
                                         <img src={person.pic} alt={`user${index+1}`}/>
                                     </div>
                                     <div className="col-10">
-                                        <div style={{fontWeight: "bolder", color: "#FF2459"}}>
+
+                                            <div style={ index==0 ? {fontWeight: "bolder", color: "#FF2459"} : {fontWeight: "bolder", color: "#8F4557"}}>
                                             {person.name}
                                         </div>
+                                        <div style={ index==0 ? {color: "#FF2459"} : {color: "#929292"}}>
                                         {person.answer}
-                                        <div className="date">
+                                        </div>
+                                        <div style={ index==0 ? {color: "#FF2459"} : {color: "#929292"}} className="date">
                                             {person.date}
                                         </div>
-                                        {index==0 ?
-                                        <button className="your-answer">
-                                            מה התשובה שלך
-                                        </button>: null}
                                     </div>
                                 </div>))}
                     </div>
@@ -138,4 +137,4 @@ class TimerPage extends Component {
     }
 }
 
-export default TimerPage;
+export default TimerPage2;

@@ -12,10 +12,13 @@ class NewBet extends Component {
     render() {
         return (
             <div className="betTicket">
-                <h3 className="companyName">{this.state.company}</h3>
                 <h1 className="betText">{this.state.betText}</h1>
-                <h4 className="amount">{this.state.amount}</h4>
+                <p className="companyName">
+                    {this.state.company}
+                    {"\n"}
+                {this.state.amount}</p>
                 <h4 className="timer">{this.state.timer}</h4>
+
             </div>
 
 
